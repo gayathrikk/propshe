@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-26T15:39:44 IST" name="Default suite" finished-at="2025-06-26T15:42:30 IST" duration-ms="166000">
+    <groups>
+    </groups>
+    <test started-at="2025-06-26T15:39:44 IST" name="Default test" finished-at="2025-06-26T15:42:30 IST" duration-ms="166000">
+      <class name="QA.auto.propsheet">
+        <test-method is-config="true" signature="setup()[pri:0, instance:QA.auto.propsheet@28261e8e]" started-at="2025-06-26T15:39:44 IST" name="setup" finished-at="2025-06-26T15:39:50 IST" duration-ms="5467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:1, instance:QA.auto.propsheet@28261e8e]" started-at="2025-06-26T15:39:50 IST" name="login" finished-at="2025-06-26T15:40:04 IST" duration-ms="13601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="series_set()[pri:2, instance:QA.auto.propsheet@28261e8e]" started-at="2025-06-26T15:40:04 IST" name="series_set" finished-at="2025-06-26T15:40:29 IST" duration-ms="25625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- series_set -->
+        <test-method signature="atlaseditor()[pri:3, instance:QA.auto.propsheet@28261e8e]" started-at="2025-06-26T15:40:29 IST" name="atlaseditor" finished-at="2025-06-26T15:40:56 IST" duration-ms="27021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atlaseditor -->
+        <test-method signature="Editmenu()[pri:4, instance:QA.auto.propsheet@28261e8e]" started-at="2025-06-26T15:40:56 IST" name="Editmenu" finished-at="2025-06-26T15:41:04 IST" duration-ms="7430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Editmenu -->
+        <test-method signature="contributor()[pri:5, instance:QA.auto.propsheet@28261e8e]" started-at="2025-06-26T15:41:04 IST" name="contributor" finished-at="2025-06-26T15:41:35 IST" duration-ms="31660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contributor -->
+        <test-method signature="draw()[pri:6, instance:QA.auto.propsheet@28261e8e]" started-at="2025-06-26T15:41:35 IST" name="draw" finished-at="2025-06-26T15:41:38 IST" duration-ms="2746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- draw -->
+        <test-method signature="annotation()[pri:7, instance:QA.auto.propsheet@28261e8e]" started-at="2025-06-26T15:41:38 IST" name="annotation" finished-at="2025-06-26T15:41:51 IST" duration-ms="13185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- annotation -->
+        <test-method signature="geometry_Box()[pri:8, instance:QA.auto.propsheet@28261e8e]" started-at="2025-06-26T15:41:51 IST" name="geometry_Box" finished-at="2025-06-26T15:42:00 IST" duration-ms="9192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- geometry_Box -->
+        <test-method signature="Box_select()[pri:9, instance:QA.auto.propsheet@28261e8e]" started-at="2025-06-26T15:42:00 IST" name="Box_select" finished-at="2025-06-26T15:42:06 IST" duration-ms="5844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Box_select -->
+        <test-method signature="Propertystylesheet()[pri:10, instance:QA.auto.propsheet@28261e8e]" started-at="2025-06-26T15:42:06 IST" name="Propertystylesheet" finished-at="2025-06-26T15:42:23 IST" duration-ms="17057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Propertystylesheet -->
+        <test-method signature="Box_delete()[pri:11, instance:QA.auto.propsheet@28261e8e]" started-at="2025-06-26T15:42:23 IST" name="Box_delete" finished-at="2025-06-26T15:42:30 IST" duration-ms="6939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Box_delete -->
+        <test-method is-config="true" signature="close()[pri:0, instance:QA.auto.propsheet@28261e8e]" started-at="2025-06-26T15:42:30 IST" name="close" finished-at="2025-06-26T15:42:30 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- QA.auto.propsheet -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
