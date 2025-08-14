@@ -205,7 +205,10 @@ public class propsheet {
 	
 			WebDriverWait wait = new WebDriverWait(driver, 30); 
 			driver.switchTo().defaultContent();
-			 try {
+			 
+			
+			
+			try {
 		  		    WebElement Editmenu= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Edit Menu']")));
 		  		    Editmenu.click();
 		  		    System.out.println("Edit menu open successfully.");
@@ -220,8 +223,16 @@ public class propsheet {
 		{
 			WebDriverWait wait = new WebDriverWait(driver, 30); 
 			driver.switchTo().defaultContent();
+			try {
+	  		    WebElement g= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//img[@src='/viewer/assets/images/colorsvg/chat_logo.svg']")));
+	  		    g.click();
+	  		    System.out.println("AgentAI click successfully.");
+	  		    Thread.sleep(2000);
+	  		} catch (Exception e) {
+	  		    System.out.println("AgentAI click is  not click: " + e.getMessage());
+	  		}
 			 try {
-		  		    WebElement contributor= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//nb-icon[@pack='nebular-essentials'])[2]")));
+		  		    WebElement contributor= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//nb-accordion-item-header[text()='Contributors']")));
 		  		    contributor.click();
 		  		    System.out.println("contributor option open successfully.");
 		  		    Thread.sleep(2000);
@@ -368,4 +379,3 @@ public class propsheet {
 	}
 
 }
-
